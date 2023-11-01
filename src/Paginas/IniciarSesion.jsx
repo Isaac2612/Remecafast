@@ -1,16 +1,16 @@
 import React from "react";
 import Menu from "../Componentes/Menu";
-import Init from "../Componentes/init";
+import IniciarSesion from "../Componentes/iniciarsesion";
 
 
 
-function Login(){
+function Iniciar(){
   return (
     <div className="container">
       <Menu/>
-      <Init/>
+      <IniciarSesion/>
     </div>
   );
 }
 
-export default Login;
+export default Iniciar;

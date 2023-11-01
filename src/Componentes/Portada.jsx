@@ -12,7 +12,7 @@ function Portada() {
           <p className="text-center">Registrate para poder acceder a informacion de los remedios</p>
         </div>
 
-         <Link to="/Login">
+         <Link to="/Iniciar">
           <div className="d-grid gap-2 mx-auto pb-1">
             <button className="btn btn-primary" type="button">Iniciar Sesion</button>
           </div>

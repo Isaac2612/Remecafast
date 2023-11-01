@@ -6,6 +6,7 @@ import Registro from "./Paginas/Registro";
 import HomeL from "./Paginas/homeL";
 import Perfil from "./Paginas/perfil";
 import Miscursos from "./Paginas/miscursos";
+import Iniciar from "./Paginas/IniciarSesion";
 
  function App() {
   return (
@@ -19,6 +20,7 @@ import Miscursos from "./Paginas/miscursos";
         <Route exact path="/HomeL" element={<HomeL/>}/>
          <Route exact path="/Perfil" element={<Perfil/>}/>
         <Route exact path="/Miscursos" element={<Miscursos/>}/>
+        <Route exact path="/Iniciar" element={<Iniciar/>}/>
       </Routes>
     </Router>
   );

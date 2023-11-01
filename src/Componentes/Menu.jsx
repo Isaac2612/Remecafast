@@ -38,7 +38,7 @@ const Menu = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-disabled="true" to="/Login">
+                <Link className="nav-link active" aria-disabled="true" to="/Iniciar">
                   Iniciar Sesion
                 </Link>
               </li>
@@ -62,7 +62,7 @@ const Menu = () => {
   </div>
   <div class="card-body">
     <h5 class="card-title">Remecafast</h5>
-    <p class="card-text"><strong>Esta pagina trata de una pagina de remedios caseros en donde puedes ver remedios con productos que puedes encontrar en tu hogar para economizar gatos para remedios</strong> </p>
+    <p class="card-text"><strong>Esta pagina trata de una pagina de remedios caseros en donde puedes ver remedios con productos que puedes encontrar en tu hogar para economizar gastos para remedios</strong> </p>
   </div>
 </div>
       </div>
